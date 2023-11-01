@@ -7,8 +7,8 @@ import styles from "@/styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const Container = styled.div<{ theme: string }>`
-  padding: 0 2rem;
-  ${(props) => props.theme === "dark" && "background: darkgray"}
+  /* padding: 0 2rem; */
+  /* ${(props) => props.theme === "dark" && "background: darkgray"} */
 `;
 
 export default function Home() {
